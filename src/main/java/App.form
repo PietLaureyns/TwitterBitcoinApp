@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="App">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="50" bottom="20" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="748" height="498"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="a87e5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="36"/>
+          <text value="Twitter"/>
+        </properties>
+      </component>
+      <grid id="e3778" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a6722" class="javax.swing.JLabel" binding="timeStartedLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="353" height="0"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="eeffa" class="javax.swing.JLabel" binding="aantalTweetsInteger">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="353" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Aantal Tweets: 0"/>
+            </properties>
+          </component>
+          <component id="45934" class="javax.swing.JLabel" binding="aantal1minTweets">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Aantal 1min tweets: 0"/>
+            </properties>
+          </component>
+          <component id="44aa5" class="javax.swing.JLabel" binding="aantal10minTweets">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Aantal 10min tweets: 0"/>
+            </properties>
+          </component>
+          <component id="94220" class="javax.swing.JLabel" binding="averageTweets">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="49ba8" class="javax.swing.JLabel" binding="aantal1HourTweets">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Aantal 1 uur tweets: 0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f7aff" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="baefc">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="ec2c6" class="javax.swing.JList" binding="languageList">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="1ebd2">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="f48d7" class="javax.swing.JList" binding="twitter1minValues">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="9ea66">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="a9723" class="javax.swing.JList" binding="locationsList">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="3bc5a">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="ed921" class="javax.swing.JList" binding="bitcoin1minValues">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="6a62e" class="javax.swing.JButton" binding="stopButton">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <foreground color="-4518386"/>
+              <text value="Stop Applicatie"/>
+            </properties>
+          </component>
+          <scrollpane id="b2f3">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="b9446" class="javax.swing.JList" binding="twitter10minValues">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="89c2e">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="b0a3f" class="javax.swing.JList" binding="bitcoin10minValues">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="33edc">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="41f9e" class="javax.swing.JList" binding="twitter1hourValues">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="800bc">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="ca270" class="javax.swing.JList" binding="bitcoin1hourValues">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
